@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(124, 117, 117);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.text-container {
+    margin-bottom: 10px;
+    width: 780px;
+    height: 100px;
+}
+
+.text-container textarea,
+.text-container p {
+    width: calc(100%);
+    height: calc(100%);
+    resize: none;
+    border: 1px solid transparent;
+}
+
+.text-container textarea:focus {
+    border-color: orange;
+}
+
+#text {
+    margin: 0;
+}
+
+
+.button-container button {
+    padding: 10px 20px;
+    background-color: #D9D9D9;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#text:focus {
+    outline: none;
+    border: 1px solid #D9D9D9;
+}
+
+#edit-button{
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/free-icon-font-pencil-3917484.svg);
+}
+#delete-button{
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/free-icon-font-trash-3917439.svg);
+}
